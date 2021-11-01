@@ -9,6 +9,8 @@ export default class ColorSelector extends Component {
     })
   )
 
+  // So far, we've used class methods as callbacks, this.handleClick and this.handleSubmit. This time is a little different - we'll need to write the function inside the map to access the color values needed:
+
   render() {
     return (
       <div id="colorSelector">

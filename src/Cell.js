@@ -9,6 +9,8 @@ export default class Cell extends Component {
     }
   }
 
+  // Looking briefly at Cell, we can see that this color prop is used to set the initial state of the component, and that state value is then used to modify the background color of the returned div:
+
   handleClick = () => {
     this.setState({
       color: this.props.selectedColor
